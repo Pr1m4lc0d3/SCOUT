@@ -1,0 +1,20 @@
+{
+  "name": "scout",
+  "description": "SCOUT: find the truth by looking. The investigation half — reconnaissance, intake, grading, and measuring what your moves actually did. Sibling to RAID (act) and FORTRESS (guard the truth of what you say).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pr1m4lc0d3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "market-research",
+    "measurement",
+    "analytics",
+    "reconnaissance"
+  ],
+  "skills": [
+    "./skills/scout",
+    "./skills/scout-outcome"
+  ]
+}
