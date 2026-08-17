@@ -27,19 +27,24 @@ These bind every SCOUT skill without exception.
 
 **Stage, never publish.** SCOUT produces packs, grades, and reports. It does not post, comment, submit, or send anything, and it does not perform an outward action on anyone's behalf. A human reads what SCOUT wrote and decides what to do with it.
 
-**The handle, and the permalink, never enter a pack file.** Verify a claim with the link open, capture what the link proved, then discard the link and the account behind it. `raid-intake`'s rule binds here for the same reason: a pack file is read by people who were never meant to go looking for the person behind a quote.
+**The handle, and the permalink, never enter a pack file.** Verify a claim with the link open, capture what the link proved, then discard the link and the account behind it. `scout-intake`'s rule binds here for the same reason: a pack file is read by people who were never meant to go looking for the person behind a quote.
 
 ## 3. Routing table
 
 | Moment | Skill |
 |---|---|
+| Researching an audience, or finding where a market gathers | `scout-recon` |
+| Handed research you did not gather: a chatbot dump, a pasted transcript, someone else's summary | `scout-intake` |
+| Pointing the machine at a new product, or a pack with no supply-side files | `scout-provision` |
 | Measuring what a campaign or move actually did, and what to stop doing | `scout-outcome` |
 | Checking whether an AI assistant finds and correctly describes the product | `scout-geo` |
 
-## 4. Joining later
+## 4. Five skills, all live
 
-Three more skills belong in this pack and aren't here yet: `scout-recon` (investigate a market: pains, rooms), `scout-intake` (grade a chatbot research dump into recon.md and lexicon.md), and `scout-provision` (establish what a product can prove: truth.md, voice.md, evidence-inventory.md). They migrate in from RAID in a later phase. Until then, `scout-outcome` and `scout-geo` are the whole of what's live.
+`scout-recon` (investigate a market: pains, rooms), `scout-intake` (grade a chatbot research dump into recon.md and lexicon.md), and `scout-provision` (establish what a product can prove: truth.md, voice.md, evidence-inventory.md) migrated in from RAID. Together with `scout-outcome` and `scout-geo`, that's the whole charter: five sub-skills under this front door, nothing still pending.
 
 ## 5. Built-ins only
 
-`scout-outcome` and `scout-geo` run on Read/Write/Edit, Glob/Grep, and Bash for their linters. Nothing here assumes any other plugin is installed, including RAID or FORTRESS. Where a pack file either reads (`campaign.md`, `lexicon.md`) doesn't exist yet, it says so rather than inventing one.
+Every skill in this plugin runs on Read/Write/Edit, Glob/Grep, and Bash; `scout-recon` and `scout-intake` also use WebSearch and WebFetch to find and check what a market says. Nothing here assumes any other plugin is installed, including RAID or FORTRESS. Where a pack file either reads (`campaign.md`, `lexicon.md`) doesn't exist yet, it says so rather than inventing one.
+
+`scout-intake` and `scout-recon` name the Playwright MCP browser as the way to open a source behind a login wall. It is an accelerant, not a requirement: absent it, both skills still produce their full deliverable, grading every line that browser would have reached as `verified: no` with a reason instead.

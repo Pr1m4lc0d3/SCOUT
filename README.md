@@ -21,17 +21,16 @@ including the parts that disappoint, is its own job. SCOUT is that job.
 
 ## Status
 
-Phase 1 and Phase 3 of this pack. Two skills are live, plus the front door:
+All five sub-skills are live, plus the front door:
 
 | Skill | Job |
 |---|---|
 | **`scout`** | Front door: doctrine, the floors that bind every skill here, and the routing table. |
+| **`scout-recon`** | Investigates a market: who hurts, in their own words, and where they gather. Migrated from RAID. |
+| **`scout-intake`** | Grades a chatbot research dump into `recon.md` and `lexicon.md`, and finds what the dump left out. Migrated from RAID. |
+| **`scout-provision`** | Establishes what a product can prove: `truth.md`, `voice.md`, `evidence-inventory.md`. Migrated from RAID. |
 | **`scout-outcome`** | Measures what the last moves actually did, against real captured numbers, and grades the result into what moved, what stayed flat, and what to stop doing. |
 | **`scout-geo`** | Measures whether an AI assistant finds and correctly describes the product, run in a clean, memory-free session so the result reflects real discoverability, not the operator's own influence. |
-
-Three more skills belong in this pack and are on their way in a later phase, migrating from RAID
-(`scout-recon`, `scout-intake`, `scout-provision`). Until then this repo ships exactly what's
-above, nothing pre-announced as done that isn't.
 
 ## The floors
 
