@@ -15,6 +15,7 @@
   ],
   "skills": [
     "./skills/scout",
-    "./skills/scout-outcome"
+    "./skills/scout-outcome",
+    "./skills/scout-geo"
   ]
 }

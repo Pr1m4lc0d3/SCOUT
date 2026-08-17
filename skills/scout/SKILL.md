@@ -34,11 +34,12 @@ These bind every SCOUT skill without exception.
 | Moment | Skill |
 |---|---|
 | Measuring what a campaign or move actually did, and what to stop doing | `scout-outcome` |
+| Checking whether an AI assistant finds and correctly describes the product | `scout-geo` |
 
 ## 4. Joining later
 
-Four more skills belong in this pack and aren't here yet: `scout-recon` (investigate a market: pains, rooms), `scout-intake` (grade a chatbot research dump into recon.md and lexicon.md), `scout-provision` (establish what a product can prove: truth.md, voice.md, evidence-inventory.md), and `scout-geo` (make the product answerable by AI, and audit it weekly). They migrate in from RAID and get built new in a later phase. Until then, `scout-outcome` is the whole of what's live.
+Three more skills belong in this pack and aren't here yet: `scout-recon` (investigate a market: pains, rooms), `scout-intake` (grade a chatbot research dump into recon.md and lexicon.md), and `scout-provision` (establish what a product can prove: truth.md, voice.md, evidence-inventory.md). They migrate in from RAID in a later phase. Until then, `scout-outcome` and `scout-geo` are the whole of what's live.
 
 ## 5. Built-ins only
 
-`scout-outcome` runs on Read/Write/Edit, Glob/Grep, and Bash for the linter. Nothing here assumes any other plugin is installed, including RAID or FORTRESS. Where a pack file it reads (`campaign.md`, a geo audit) doesn't exist yet, it says so rather than inventing one.
+`scout-outcome` and `scout-geo` run on Read/Write/Edit, Glob/Grep, and Bash for their linters. Nothing here assumes any other plugin is installed, including RAID or FORTRESS. Where a pack file either reads (`campaign.md`, `lexicon.md`) doesn't exist yet, it says so rather than inventing one.

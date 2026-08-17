@@ -21,16 +21,17 @@ including the parts that disappoint, is its own job. SCOUT is that job.
 
 ## Status
 
-Phase 1 of this pack. One skill is live:
+Phase 1 and Phase 3 of this pack. Two skills are live, plus the front door:
 
 | Skill | Job |
 |---|---|
 | **`scout`** | Front door: doctrine, the floors that bind every skill here, and the routing table. |
 | **`scout-outcome`** | Measures what the last moves actually did, against real captured numbers, and grades the result into what moved, what stayed flat, and what to stop doing. |
+| **`scout-geo`** | Measures whether an AI assistant finds and correctly describes the product, run in a clean, memory-free session so the result reflects real discoverability, not the operator's own influence. |
 
-Four more skills belong in this pack and are on their way in a later phase, migrating from RAID
-(`scout-recon`, `scout-intake`, `scout-provision`) or built new (`scout-geo`). Until then this repo
-ships exactly what's above, nothing pre-announced as done that isn't.
+Three more skills belong in this pack and are on their way in a later phase, migrating from RAID
+(`scout-recon`, `scout-intake`, `scout-provision`). Until then this repo ships exactly what's
+above, nothing pre-announced as done that isn't.
 
 ## The floors
 
