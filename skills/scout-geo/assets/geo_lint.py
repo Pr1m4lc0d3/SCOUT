@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""geo-lint — check .monkeys/discoverability.md carries the fields a human needs.
+"""geo-lint: check .monkeys/discoverability.md carries the fields a human needs.
 
 The linter checks FORM. It cannot know whether an AI assistant actually found
 or correctly described the product, only whether the line says which query was

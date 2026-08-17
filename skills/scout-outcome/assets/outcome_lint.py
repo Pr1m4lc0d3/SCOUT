@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""outcome-lint — check .monkeys/outcome.md carries the fields a human needs.
+"""outcome-lint: check .monkeys/outcome.md carries the fields a human needs.
 
 The linter checks FORM. It cannot know whether a metric actually moved, only
 whether the line says what changed, what caused it, where it was measured, and
