@@ -1,6 +1,6 @@
 ---
 name: scout
-description: SCOUT front door. Find the truth by looking. Use when starting reconnaissance, intake, grading, or measurement work, or entering the SCOUT discipline for the first time — states the doctrine and floors, then routes to the skill that's live.
+description: SCOUT front door. Find the truth by looking. Use when starting reconnaissance, intake, grading, or measurement work, or entering the SCOUT discipline for the first time. States the doctrine and floors, then routes to the skill that's live.
 ---
 
 # scout

@@ -1,4 +1,4 @@
-# Scars — what this plugin's doctrine was learned from
+# Scars: what this plugin's doctrine was learned from
 
 This is SCOUT's own incident log, not an adopter's. It documents what the doctrine in this plugin
 cost to learn, before it was doctrine. Each entry, when one lands here, is written generically: no

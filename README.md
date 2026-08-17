@@ -2,7 +2,7 @@
 
 ### Find the truth by looking
 
-SCOUT is the investigation third of **THE MAVERICK'S MONKEYS** — a set of Claude Code plugins that
+SCOUT is the investigation third of **THE MAVERICK'S MONKEYS**, a set of Claude Code plugins that
 together make an agent competent at marketing a product with no budget. `RAID` takes ground.
 `FORTRESS` guards the truth of what you say once it's public. SCOUT establishes what's actually
 real before either of them acts on it: reconnaissance, intake, grading, and measuring what your
@@ -35,7 +35,7 @@ ships exactly what's above, nothing pre-announced as done that isn't.
 ## The floors
 
 **Never invent a figure.** **Source every number with a date.** **A null result is a finding, never
-spun.** **Stage, never publish — a human sends.** **The handle and the permalink never enter a pack
+spun.** **Stage, never publish; a human sends.** **The handle and the permalink never enter a pack
 file.** Full statement of each in `skills/scout/SKILL.md`.
 
 ## Install
