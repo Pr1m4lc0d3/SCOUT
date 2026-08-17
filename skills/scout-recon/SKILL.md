@@ -1,11 +1,11 @@
 ---
-name: raid-recon
+name: scout-recon
 description: Use when researching an audience, finding where a market gathers, or capturing how people describe a problem. Writes the Pains and Rooms sections of the recon pack.
 ---
 
-# raid-recon
+# scout-recon
 
-Never fight where the money wins. Recon is how you find the ground worth taking: the pain in people's own words, and the rooms where those people already are.
+Find the truth by looking. Recon is how you find the ground worth taking: the pain in people's own words, and the rooms where those people already are.
 
 ## 1. Their words, not yours
 
@@ -85,7 +85,7 @@ Recon finds the pain and the room. It does not decide what to say about a compet
 
 Recon also assumes you gathered the evidence yourself. Where it arrived as a
 chatbot dump, a pasted transcript or someone else's summary, that is
-`raid-intake`'s job first: it grades what you were handed and finds what the dump
+`scout-intake`'s job first: it grades what you were handed and finds what the dump
 left out, then writes the Pains and Rooms here. Do not write a pain into this
 file straight out of a summary. **A summary is not a source, and once a line is
 in this file it reads as one.**

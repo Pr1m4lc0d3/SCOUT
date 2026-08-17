@@ -1,4 +1,4 @@
-# raid-provision — worked example
+# scout-provision — worked example
 
 A product read into a supply-side pack. The product is fictional; the failure
 modes are real. It shows the one move that matters: refusing to file a claim as

@@ -1,11 +1,11 @@
 ---
-name: raid-provision
+name: scout-provision
 description: Use when pointing the machine at a new product, or when the pack has no supply-side files yet. Reads the product's own repo, data and artifacts and writes truth.md, voice.md and evidence-inventory.md under the verified discipline.
 ---
 
-# raid-provision
+# scout-provision
 
-Every other RAID skill studies the market. This one studies the product, and it exists because you cannot position a thing you have not established the truth of. It is the mirror of raid-intake: intake grades what a chatbot said about the world; provision grades what the product can actually prove about itself.
+Every other SCOUT skill studies the market. This one studies the product, and it exists because you cannot position a thing you have not established the truth of. It is the mirror of `scout-intake`: intake grades what a chatbot said about the world; provision grades what the product can actually prove about itself.
 
 ## 1. What actually goes wrong
 
@@ -49,10 +49,10 @@ Three sections, and the last two are the point.
 
 **Never write `numbers.md`.** Remind, never fetch, never invent.
 
-**This skill never publishes.** RAID stages. A human sends.
+**This skill never publishes.** SCOUT stages. A human sends.
 
 ## 6. What this doesn't decide
 
-It establishes what is true about the product. It does not decide what the market wants (`raid-recon`, `raid-intake`), what to say against a competitor (`raid-asymmetry`), or what the copy is (`raid-draft`, `raid-cite`). Those consume `truth.md` and `evidence-inventory.md`; they cannot run honestly without them.
+It establishes what is true about the product. It does not decide what the market wants (`scout-recon`, `scout-intake`), what to say against a competitor (`raid-asymmetry`), or what the copy is (`raid-draft`, `raid-cite`). Those consume `truth.md` and `evidence-inventory.md`; they cannot run honestly without them.
 
-A worked run is in `examples/raid-provision-worked-example.md`. The reading checklist is in `references/provision-checklist.md`.
+A worked run is in `examples/scout-provision-worked-example.md`. The reading checklist is in `references/provision-checklist.md`.

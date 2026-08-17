@@ -1,4 +1,4 @@
-# raid-intake — worked example
+# scout-intake — worked example
 
 A deliberately poisoned dump and what intake does with it. Every trap below is one
 that occurred in a real run, not one invented to make the skill look good. The

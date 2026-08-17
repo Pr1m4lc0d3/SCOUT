@@ -2,7 +2,7 @@ import sys
 import unittest
 from pathlib import Path
 
-ASSETS = Path(__file__).resolve().parent.parent / "skills" / "raid-provision" / "assets"
+ASSETS = Path(__file__).resolve().parent.parent / "skills" / "scout-provision" / "assets"
 sys.path.insert(0, str(ASSETS))
 
 import evidence_lint  # noqa: E402

@@ -1,11 +1,11 @@
 ---
-name: raid-intake
+name: scout-intake
 description: Use when research arrives as a chatbot dump, a pasted transcript, or someone else's summary rather than something you gathered. Grades it into recon.md and lexicon.md, and finds what the dump left out.
 ---
 
-# raid-intake
+# scout-intake
 
-Never fight where the money wins. This skill exists for the moment before that judgment can be made at all: when the only evidence anyone has is a wall of prose a chatbot produced, and nobody knows which parts of it are real.
+Find the truth by looking. This skill exists for the moment before that judgment can be made at all: when the only evidence anyone has is a wall of prose a chatbot produced, and nobody knows which parts of it are real.
 
 ## 1. What actually goes wrong
 
@@ -126,7 +126,7 @@ Run `python assets/lexicon_lint.py .monkeys/lexicon.md` before handing off. It c
 
 ## 9. Floors
 
-**The handle never enters the pack.** Verify with the link, then discard it. `raid-recon` records the room, not the person, and the reason it gives binds here.
+**The handle never enters the pack.** Verify with the link, then discard it. `scout-recon` records the room, not the person, and the reason it gives binds here.
 
 **A channel type is not a room.** No `## Rooms` line without an audience, a rule and an entry cost, all three read at the room itself.
 
@@ -138,10 +138,10 @@ Run `python assets/lexicon_lint.py .monkeys/lexicon.md` before handing off. It c
 
 **A cross-domain citation is an analogy until proven otherwise.** Research about people is not evidence about software. Both can be true and sourced; never blur them into one claim.
 
-**This skill never publishes.** RAID stages. A human sends.
+**This skill never publishes.** SCOUT stages. A human sends.
 
 ## 10. What this doesn't decide
 
 It grades the evidence and finds what the dump left out. It does not decide what to say about a competitor (`raid-asymmetry`), which room to enter (`raid-borrow`, `raid-stunt`), when (`raid-moment`), or what the copy says (`raid-draft`). Hand the files off.
 
-The pastable questions are in `references/question-sheet.md`. A worked run on a poisoned dump is in `examples/raid-intake-worked-example.md`.
+The pastable questions are in `references/question-sheet.md`. A worked run on a poisoned dump is in `examples/scout-intake-worked-example.md`.

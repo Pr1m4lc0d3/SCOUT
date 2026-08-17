@@ -2,7 +2,7 @@ import sys
 import unittest
 from pathlib import Path
 
-ASSETS = Path(__file__).resolve().parent.parent / "skills" / "raid-intake" / "assets"
+ASSETS = Path(__file__).resolve().parent.parent / "skills" / "scout-intake" / "assets"
 sys.path.insert(0, str(ASSETS))
 
 import lexicon_lint  # noqa: E402
