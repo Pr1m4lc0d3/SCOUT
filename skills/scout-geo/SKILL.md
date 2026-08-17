@@ -57,7 +57,7 @@ Run `python assets/geo_lint.py .monkeys/discoverability.md` before handing off. 
 
 **This skill never publishes.** It stages `discoverability.md` for a human, and for `RAID` to act on. It doesn't edit the site, doesn't post an answer anywhere the assistant might read it back, doesn't do anything but record what was found.
 
-**The handle, and the permalink, never enter the pack.** Where a result touches a competitor's account or a specific person's post the assistant surfaced, capture what it proved and discard the identifying link, the same discipline `raid-intake` and `scout-outcome` hold.
+**The handle, and the permalink, never enter the pack.** Where a result touches a competitor's account or a specific person's post the assistant surfaced, capture what it proved and discard the identifying link, the same discipline `scout-intake` and `scout-outcome` hold.
 
 ## 6. What this doesn't decide
 

@@ -42,7 +42,7 @@ Before asking the first query, check every one of these:
 - **One query per session where the assistant supports it**, or at minimum, no query asked after
   an answer that named or described the product in an earlier turn of the same session. A later
   query in a session that already discussed the product is contaminated the same way a seeded
-  chatbot dump is in `raid-intake`.
+  chatbot dump is in `scout-intake`.
 
 If a genuinely clean session can't be run this pass (no way to log out, no way to clear memory
 on the assistant in question), skip that assistant for that query rather than recording a

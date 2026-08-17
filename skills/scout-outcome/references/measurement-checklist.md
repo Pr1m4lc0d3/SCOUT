@@ -17,7 +17,7 @@ opened this run, the figure doesn't go in this run.
 | `F:\Analytics\snapshots` | GA4 exports, and any other analytics captured to disk | Open the specific dated file. Do not average across files without saying so; report the single snapshot used. |
 | The `campaign.md` that ran | What move was actually attempted, and when | Tie every Moved or Flat bullet to a specific line in that file, so the `after:` field names a real, dated action, not a guess at what probably happened. |
 | A prior `scout-geo` audit, once that skill exists | Discoverability numbers over time | Compare the two most recent audits, dated, never a single reading against an assumed baseline. |
-| A code host's API or a community's own analytics page | Stars, forks, room activity, referral counts | Same standard as `raid-intake`'s sourcing rule: read the API or the page itself, never a summary of it. |
+| A code host's API or a community's own analytics page | Stars, forks, room activity, referral counts | Same standard as `scout-intake`'s sourcing rule: read the API or the page itself, never a summary of it. |
 
 ## Before writing a Moved line
 

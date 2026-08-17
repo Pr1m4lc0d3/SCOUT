@@ -52,7 +52,7 @@ The full list of what to check and where, including how to handle a metric with 
 - <what to stop doing> — because: <the null or negative result that justifies it>
 ```
 
-Run `python assets/outcome_lint.py .monkeys/outcome.md` before handing off. It checks that every bullet carries the fields a human needs to verify it; it cannot and does not judge whether a move actually caused a metric to change, or whether a prune decision is the right call. Form only, never truth, the same discipline `raid-intake`'s `lexicon_lint.py` holds.
+Run `python assets/outcome_lint.py .monkeys/outcome.md` before handing off. It checks that every bullet carries the fields a human needs to verify it; it cannot and does not judge whether a move actually caused a metric to change, or whether a prune decision is the right call. Form only, never truth, the same discipline `scout-intake`'s `lexicon_lint.py` holds.
 
 ## 6. Floors
 
@@ -60,7 +60,7 @@ Run `python assets/outcome_lint.py .monkeys/outcome.md` before handing off. It c
 
 **This skill never publishes.** It stages a file for a human, and for `RAID` and `FORTRESS` to read. It doesn't post a retro, doesn't announce a metric, doesn't send anything anywhere.
 
-**The handle, and the permalink, never enter the pack.** Where a moved metric traces back to a specific post or account, capture what it proved (the reach, the date, the number), then discard the identifying link the same way `raid-intake` discards one after verifying with it.
+**The handle, and the permalink, never enter the pack.** Where a moved metric traces back to a specific post or account, capture what it proved (the reach, the date, the number), then discard the identifying link the same way `scout-intake` discards one after verifying with it.
 
 ## 7. What this doesn't decide
 
