@@ -1,7 +1,7 @@
 {
   "name": "scout",
   "description": "SCOUT: find the truth by looking. The investigation half: reconnaissance, intake, grading, and measuring what your moves actually did. Sibling to RAID (act) and FORTRESS (guard the truth of what you say).",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Pr1m4lc0d3"
   },
@@ -15,6 +15,9 @@
   ],
   "skills": [
     "./skills/scout",
+    "./skills/scout-recon",
+    "./skills/scout-intake",
+    "./skills/scout-provision",
     "./skills/scout-outcome",
     "./skills/scout-geo"
   ]
