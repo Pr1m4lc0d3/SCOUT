@@ -59,6 +59,8 @@ Every pain and every room gets a `verified` field:
 
 An unverified entry still belongs in the file. Guessing at verification to make the pack look more solid is worse than an honest `no` — it hides exactly the thing a later skill needs to know before it builds a claim on top of it.
 
+Some rooms sit behind a login wall, X most of all. `WebFetch` fails there; the Playwright MCP browser, on the operator's own session, is how you reach a source to confirm it. It is an accelerant, not a requirement: without it, a line you could not open at the source stays `verified: no` with a reason, and the file is still complete.
+
 ## 6. Write the file
 
 Append to `.monkeys/recon.md` at the adopter's repo root, in the shape the front door already established:
