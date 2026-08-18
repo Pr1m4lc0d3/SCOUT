@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="../assets/scout.png" alt="SCOUT mark" width="200">
+</p>
+
 # SCOUT
 
 ### Find the truth by looking
 
-SCOUT is the investigation third of **THE MAVERICK'S MONKEYS**, a set of Claude Code plugins that
+SCOUT is the investigation third of **Mavericks Monkey Werx**, a set of Claude Code plugins that
 together make an agent competent at marketing a product with no budget. `RAID` takes ground.
 `FORTRESS` guards the truth of what you say once it's public. SCOUT establishes what's actually
 real before either of them acts on it: reconnaissance, intake, grading, and measuring what your
