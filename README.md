@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/scout.png" alt="SCOUT mark" width="200">
+  <img src="assets/og-scout.png" alt="SCOUT — find it. Investigation for the Proof Economy." width="100%">
 </p>
 
 # SCOUT
