@@ -64,3 +64,6 @@ Pay once, it's yours, no subscription. Thirty days of the full council with no a
 card. Runs on your machine with your own model keys.
 
 https://deliberon.com
+
+Also on Agensi, if you would rather install these in one step and have them keep themselves
+updated: https://www.agensi.io/creators/ryan-heltemes
