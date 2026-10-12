@@ -65,5 +65,20 @@ card. Runs on your machine with your own model keys.
 
 https://deliberon.com
 
-Also on Agensi, if you would rather install these in one step and have them keep themselves
-updated: https://www.agensi.io/creators/ryan-heltemes
+## On Agensi
+
+Every skill here is sold as its own listing, so you can buy the one you need instead of six you
+don't. One install step, and they keep themselves updated.
+
+| Skill | Price | Listing |
+|---|---|---|
+| **SCOUT** (the front door) | $5 | https://www.agensi.io/skills/scout-find-the-truth-by-looking |
+| SCOUT Geo | $7 | https://www.agensi.io/skills/scout-geo-does-the-ai-find-your-product |
+| SCOUT Intake | $9 | https://www.agensi.io/skills/scout-intake-grade-the-chatbot-dump |
+| SCOUT Outcome | $7 | https://www.agensi.io/skills/scout-outcome-what-actually-moved |
+| SCOUT Provision | $7 | https://www.agensi.io/skills/scout-provision-point-the-machine-at-a-new-product |
+| SCOUT Recon | $7 | https://www.agensi.io/skills/scout-recon-their-words-not-yours |
+
+The front door runs kickoff and routes work to the rest, so start there if you are starting cold.
+RAID and FORTRESS sit beside this pack on the creator page:
+https://www.agensi.io/creators/ryan-heltemes
